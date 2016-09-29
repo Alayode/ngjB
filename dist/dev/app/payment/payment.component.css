@@ -1,0 +1,166 @@
+.mobileContainer{
+    line-height: 1.4em;
+}
+
+.stepDetailsContainer{
+    padding: 10px;
+}
+.stepDetailsContainer label{
+    font-weight: bold;
+    font-size: large;
+}
+.paymentSelectionHeader{
+    padding: 10px 0;
+
+}
+.paymentSelection{
+
+}
+#paymentSelection {
+    padding: 40px 0 10px 0;
+    margin: 0 0 2em;
+    width: 100%;
+}
+/* form styling ^5f */
+#paymentSelection input[type="text"], #paymentSelection input[type="email"],#paymentSelection input[type="password"],#paymentSelection input[type="tel"],#paymentSelection input[type="url"]{
+    width: 100%;
+    padding-right: 0;
+}
+#paymentSelection textarea {
+    width: 240px;
+}
+#paymentSelection #mainArticle form p {
+    padding: 0;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+#paymentSelection form#billForm .col1 {
+    float: none;
+    padding-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 0;
+}
+#paymentSelection form#billForm .col2, #paymentSelection form#billForm .col3 {
+    float: none;
+    margin-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+#paymentSelection form#billForm .col3 {
+    margin-bottom: 2em;
+}
+#paymentSelection form#billForm label.break {
+    padding-right: 20px;
+}
+
+
+.paymentSteps {
+    font-weight: bold;
+    padding-left: 45px;
+    background: #f5f9fa;
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px -10px;
+    outline-color:currentColor;
+    color:#004990;
+}
+.flightFare{
+    border-top: 1px solid #004990;
+    border-bottom:  1px solid #004990;
+    font-weight: bold;
+    padding-left: 45px;
+    /*background: #f5f9fa;*/
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px -10px;
+}
+.flightFare p b{
+    margin: 0;
+    line-height: 0;
+}
+.paymentDetailsComponentBody p b{
+    color: #004990;
+}
+
+.departingFlightDetails p b{
+    font-weight: bold;
+    padding-left: 45px;
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px -10px;
+    /* For FF only */
+    outline-color:currentColor;
+    color: #004990;
+}
+
+.seatNumber {
+    font-weight: bold;
+}
+.passengerName {
+    font-weight: lighter;
+}
+.outbound,.inbound,.flightCode,.operatedAirline,.equipType{
+    font-weight: bold;
+}
+
+.tripTotalPriceHeader{
+    background: #f5f9fa none repeat scroll 0 0;
+    outline-color:currentColor;
+    color:lightblue;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.tripTotalComponentTable {
+    table-layout: fixed;
+    font-size: 14px;
+    width: 100%;
+    padding: 14px;
+}
+.totalComponentName{
+    width: 70%;
+    text-align: left;
+
+}
+.paymentDetailsComponentBody{
+    padding: 5px;
+}
+
+.totalComponentPrice {
+    text-align: right
+}
+.tripTotalPrice{
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.totalComponentDetails span{
+    font-weight: 300;
+    color: #004990;
+}
+.price{
+    color: #004990;
+}
+.totalLabel{
+    color: #004990;
+    width: 70%;
+}
+
+.totalPrice{
+    color: darkblue;
+    font-weight: bold;
+    width:100%;
+    text-align: right;
+
+}
+
+.form-control{
+    color: #2aabd2;
+}
+
+
+

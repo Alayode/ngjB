@@ -1,0 +1,10 @@
+"use strict";
+var index_1 = require('./index');
+exports.HelloWorldRoutes = [
+    {
+        path: 'helloWorld',
+        component: index_1.HelloWorldComponent
+    }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9oZWxsb1dvcmxkL2hlbGxvV29ybGQucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQSxzQkFBb0MsU0FBUyxDQUFDLENBQUE7QUFFakMsd0JBQWdCLEdBQVk7SUFDdkM7UUFDRSxJQUFJLEVBQUUsWUFBWTtRQUNsQixTQUFTLEVBQUUsMkJBQW1CO0tBQy9CO0NBQ0YsQ0FBQyIsImZpbGUiOiJhcHAvaGVsbG9Xb3JsZC9oZWxsb1dvcmxkLnJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcbmltcG9ydCB7IEhlbGxvV29ybGRDb21wb25lbnQgfSBmcm9tICcuL2luZGV4JztcblxuZXhwb3J0IGNvbnN0IEhlbGxvV29ybGRSb3V0ZXM6IFJvdXRlW10gPSBbXG4gIHtcbiAgICBwYXRoOiAnaGVsbG9Xb3JsZCcsXG4gICAgY29tcG9uZW50OiBIZWxsb1dvcmxkQ29tcG9uZW50XG4gIH1cbl07XG4iXX0=
